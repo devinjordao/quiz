@@ -1,0 +1,23 @@
+@import "bootstrap";
+
+h1, h2 {
+  color: white;
+  margin: center;
+}
+
+.image-fluid {
+  align: center;
+}
+
+.home_pic {
+  background: image_url('homepage.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
+}
+
+body {
+  background: purple;
+}
