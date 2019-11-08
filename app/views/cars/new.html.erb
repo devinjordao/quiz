@@ -1,10 +1,10 @@
 <div class="form-box">
   <h1>Enter Your Car Details</h1>
   <%= simple_form_for @car do |f| %>
-    <%= f.input :car_make %>
-    <%= f.input :car_model %>
-    <%= f.input :car_rating %>
-    <%= f.input :caption %>
+    <%= f.input :car_make, placeholder: 'Lamborghini' %>
+    <%= f.input :car_model, placeholder: 'Centenario'%>
+    <%= f.input :car_rating,label: 'Rating (Between 1 and 10)', placeholder: '9' %>
+    <%= f.input :caption, placeholder: 'I love this car!' %>
     <%= f.submit 'Submit Car', class: 'btn btn-danger float-right' %>
   <% end %>
 </div>
