@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Quiz</title>
+    <title>Car Forums</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -25,9 +25,15 @@
         <br />
         <%= link_to 'Contribute', new_car_path %>
         -
-        <%= link_to 'Code for forums', '#' %>
+        <%= link_to 'Code for forums' %>
       </div>
     </header>
+
+    <% if flash[:error].present? %>
+      <div class="col-10 offset-1 alert alert-danger">
+        <%= flash[:error] %>
+      </div>
+    <% end %>
 
     <br class="clear" />
 
