@@ -1,9 +1,5 @@
 @import "bootstrap";
 
-h1, h2 {
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
 
 .image-fluid {
   align: center;
@@ -15,11 +11,22 @@ h1, h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 450px;
+  height: 600px;
   box-shadow: 5px 5px 2px black;
   margin-right:5px;
 }
 
 body {
-  background: #e60000;
+  background: black;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-top: -8px;
+  font-size: 20px;
+  color:white;
+}
+
+.slogan {
+  font-color: white;
 }

@@ -1,0 +1,11 @@
+<div class="car-box">
+  <h1>Enter Your Car Details</h1>
+  <%= simple_form_for @car do |f| %>
+    <%= f.input :car_make %>
+    <%= f.input :car_model %>
+    <%= f.input :car_rating %>
+    <%= f.input :caption %>
+    <%= f.submit 'Submit Car', class: 'btn btn-danger float-right' %>
+  <% end %>
+</div>
+

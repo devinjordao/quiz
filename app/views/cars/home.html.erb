@@ -1,0 +1,17 @@
+
+<div class="home_pic">
+</div>
+
+<% @cars.each do |post| %>
+  <div class='car-box'>
+    <%= post.car_make %>
+    <%= post.car_model %>
+    <%= post.car_rating %>
+    <%= post.caption %>
+  </div>
+<% end %>
+<br class="clear" />
+<br />
+<br />
+<br />
+<br />
